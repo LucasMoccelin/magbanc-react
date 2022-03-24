@@ -14,7 +14,7 @@ const Dashboard = ({ className = false, name, account }) => {
   const [activeLink, setActiveLink] = useState(0);
 
   const links = [
-    { text: "Minha Conta", path: "/" },
+    { text: "Minha Conta", path: "/dashboard" },
     { text: "Pagamentos", path: "payments" },
     { text: "Extrato", path: "history" },
   ];
